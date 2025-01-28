@@ -8,8 +8,8 @@ let intentos = 1;
 let maximosIntentos = 3;
 
 while (numeroUsuario != numeroSecreto) {
-    numeroUsuario = prompt("Ingrese un numero entre 1 y 10: ");
-    console.log(numeroUsuario);
+    numeroUsuario = parseInt(prompt("Ingrese un numero entre 1 y 10: "));
+    console.log(typeof(numeroUsuario));
 
     if (numeroSecreto == numeroUsuario) {
         alert(`Acertaste, el numero es: ${numeroUsuario}, Lo hiciste en ${intentos} ${intentos == 1 ? 'vez' : 'veces'}`);
