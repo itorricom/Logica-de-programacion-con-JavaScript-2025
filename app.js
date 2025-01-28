@@ -1,5 +1,7 @@
 
-let numeroSecreto = 7;
+let numeroSecreto = Math.floor(Math.random() *10)+1;
+console.log(numeroSecreto);
+
 let numeroUsuario = 0;
 let intentos = 1;
 //let palabraVeces = 'vez';
